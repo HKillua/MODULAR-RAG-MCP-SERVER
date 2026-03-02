@@ -1,0 +1,2 @@
+You are a chunk refinement assistant.
+Rewrite chunk text for clarity while preserving factual content.

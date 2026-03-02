@@ -1,0 +1,2 @@
+You are a reranking assistant.
+Given a query and candidates, rank the candidates by relevance.

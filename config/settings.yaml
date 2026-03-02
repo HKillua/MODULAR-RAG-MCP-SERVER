@@ -1,0 +1,27 @@
+llm:
+  provider: openai
+  model: gpt-4o-mini
+
+embedding:
+  provider: openai
+  model: text-embedding-3-small
+
+vector_store:
+  provider: chroma
+  collection: default
+
+retrieval:
+  mode: hybrid
+  top_k: 5
+
+rerank:
+  enabled: false
+  provider: none
+
+evaluation:
+  enabled: false
+  backends: []
+
+observability:
+  enabled: true
+  trace_file: logs/traces.jsonl

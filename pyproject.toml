@@ -19,3 +19,12 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-ra"
+markers = [
+	"unit: fast isolated unit tests",
+	"integration: tests covering module integrations",
+	"e2e: end-to-end workflow tests",
+	"slow: long-running tests",
+]

@@ -1655,7 +1655,7 @@ observability:
 | B5 | Reranker 抽象接口与工厂（含 None 回退） | [x] | 2026-03-03 | BaseReranker + NoneReranker + Factory + 单测通过 |
 | B6 | Evaluator 抽象接口与工厂 | [x] | 2026-03-03 | BaseEvaluator + CustomEvaluator + Factory + 单测通过 |
 | B7.1 | OpenAI-Compatible LLM 实现 | [x] | 2026-03-03 | OpenAI/Azure/DeepSeek 实现 + 单测通过 |
-| B7.2 | Ollama LLM 实现 | [ ] | - | |
+| B7.2 | Ollama LLM 实现 | [x] | 2026-03-03 | Ollama 实现 + 单测通过 |
 | B7.3 | OpenAI Embedding 实现 | [ ] | - | |
 | B7.4 | Local Embedding 实现 | [ ] | - | |
 | B7.5 | Recursive Splitter 默认实现 | [ ] | - | |
@@ -1732,13 +1732,13 @@ observability:
 | 阶段 | 总任务数 | 已完成 | 进度 |
 |------|---------|--------|------|
 | 阶段 A | 3 | 3 | 100% |
-| 阶段 B | 14 | 7 | 50% |
+| 阶段 B | 14 | 8 | 57% |
 | 阶段 C | 15 | 0 | 0% |
 | 阶段 D | 7 | 0 | 0% |
 | 阶段 E | 6 | 0 | 0% |
 | 阶段 F | 5 | 0 | 0% |
 | 阶段 G | 4 | 0 | 0% |
-| **总计** | **54** | **10** | **19%** |
+| **总计** | **54** | **11** | **20%** |
 
 
 ---

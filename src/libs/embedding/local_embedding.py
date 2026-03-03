@@ -20,8 +20,8 @@ class LocalEmbedding(BaseEmbedding):
         if not texts:
             return []
 
-        dimension = self._get_dimension()
-        vectors: list[list[float]] = []
+        dimension = self._get_dimension() # 获取向量维度，默认为 8
+        vectors: list[list[float]] = [] # 初始化向量列表
         for idx, text in enumerate(texts):
             if not isinstance(text, str):
                 raise ValueError(f"local invalid texts[{idx}]")

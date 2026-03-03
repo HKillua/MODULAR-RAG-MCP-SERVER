@@ -1658,7 +1658,7 @@ observability:
 | B7.2 | Ollama LLM 实现 | [x] | 2026-03-03 | Ollama 实现 + 单测通过 |
 | B7.3 | OpenAI Embedding 实现 | [x] | 2026-03-03 | OpenAI Embedding 实现 + 单测通过 |
 | B7.4 | Local Embedding 实现 | [x] | 2026-03-03 | Local Embedding 实现 + 单测通过 |
-| B7.5 | Recursive Splitter 默认实现 | [ ] | - | |
+| B7.5 | Recursive Splitter 默认实现 | [x] | 2026-03-03 | Recursive Splitter 实现 + 单测通过 |
 | B7.6 | ChromaStore 默认实现 | [ ] | - | |
 | B7.7 | LLM Reranker 实现 | [ ] | - | |
 | B7.8 | Cross-Encoder Reranker 实现 | [ ] | - | |
@@ -1732,13 +1732,13 @@ observability:
 | 阶段 | 总任务数 | 已完成 | 进度 |
 |------|---------|--------|------|
 | 阶段 A | 3 | 3 | 100% |
-| 阶段 B | 14 | 10 | 71% |
+| 阶段 B | 14 | 11 | 79% |
 | 阶段 C | 15 | 0 | 0% |
 | 阶段 D | 7 | 0 | 0% |
 | 阶段 E | 6 | 0 | 0% |
 | 阶段 F | 5 | 0 | 0% |
 | 阶段 G | 4 | 0 | 0% |
-| **总计** | **54** | **13** | **24%** |
+| **总计** | **54** | **14** | **26%** |
 
 
 ---
